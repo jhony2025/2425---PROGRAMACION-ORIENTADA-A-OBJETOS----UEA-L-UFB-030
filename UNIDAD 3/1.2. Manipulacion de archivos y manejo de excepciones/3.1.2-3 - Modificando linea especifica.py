@@ -17,6 +17,7 @@ with open(nombre_archivo, 'w') as archivo:
     archivo.write("Línea 1\n")
     archivo.write("Línea 2\n")
     archivo.write("Línea 3\n")
+    archivo.write("Línea 4 clase Tutoria \n")
 
 # Leer y mostrar el contenido original
 with open(nombre_archivo, 'r') as archivo:
@@ -24,7 +25,7 @@ with open(nombre_archivo, 'r') as archivo:
     print(archivo.read())
 
 # Modificar una línea específica y volver a imprimir
-modificar_linea_archivo(nombre_archivo, 2, "Línea 2 modificada")
+modificar_linea_archivo(nombre_archivo, 4, "Línea 4 de la clase de Tutoria 18:41")
 
 # Leer y mostrar el contenido modificado
 with open(nombre_archivo, 'r') as archivo:
