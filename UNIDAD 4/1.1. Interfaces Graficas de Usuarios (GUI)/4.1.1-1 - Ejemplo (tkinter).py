@@ -4,7 +4,6 @@ from tkinter import messagebox
 def mostrar_mensaje():
     messagebox.showinfo("Mensaje", "Hola, esto es un mensaje de prueba.")
 
-
 # Crear la ventana principal
 ventana = tk.Tk()
 ventana.title("Ejemplo de GUI con Tkinter")
